@@ -87,3 +87,35 @@ button {
 .stats-container:hover {
     box-shadow: 0 0 30px lightblue;
 }
+
+
+.navbar {
+    padding: 10px 40px 10px 20px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
