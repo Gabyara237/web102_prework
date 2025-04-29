@@ -32,7 +32,9 @@ body {
     text-align: center;
 }
 
-#num-contributions, #total-raised, #num-games {
+#num-contributions,
+#total-raised,
+#num-games {
     font-size: 50px;
 }
 
@@ -72,4 +74,16 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+/* Challenge #2 */
+.stats-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.stats-container:hover {
+    box-shadow: 0 0 30px lightblue;
 }
