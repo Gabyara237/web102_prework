@@ -107,11 +107,6 @@ button:hover {
 
 }
 
-.stats-container:hover {
-    box-shadow: 0 0 30px lightblue;
-}
-
-
 .navbar {
     padding: 10px 40px 10px 20px;
     width: 50%;
