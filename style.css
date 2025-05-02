@@ -2,7 +2,9 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #0B132B;
+    padding: 20px;
+    color: #FFFFFF;
 }
 
 #tentacles {
@@ -11,7 +13,7 @@ body {
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background: linear-gradient(to right, #8A2BE2, #FF7F50);
     padding: 1%;
     align-items: center;
     margin-left: -10px;
@@ -19,12 +21,16 @@ body {
     margin-top: -10px;
 }
 
+#description-container {
+    color: #FFFFFF;
+}
+
 .stats-container {
     display: flex;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: rgb(103 16 122);
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -32,10 +38,17 @@ body {
     text-align: center;
 }
 
+.stats-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px lightblue;
+    transform: scale(1.01);
+}
+
 #num-contributions,
 #total-raised,
 #num-games {
     font-size: 50px;
+    color: #FFFFFF;
 }
 
 #games-container {
@@ -51,7 +64,7 @@ body {
 }
 
 .game-card {
-    background-color: #FFFFFF;
+    background-color: rgb(103 16 122);
     padding: 1%;
     margin: 1%;
     width: 300px;
@@ -61,7 +74,8 @@ body {
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 20px lightblue;
+    transform: scale(1.02);
 }
 
 #button-container {
@@ -74,6 +88,15 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    cursor: pointer;
+    background: linear-gradient(to right, #8A2BE2, #FF7F50);
+    color: #FFFFFF;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: #FFC300;
+    box-shadow: 0 0 10px lightblue;
 }
 
 /* Challenge #2 */
